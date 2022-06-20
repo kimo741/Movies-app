@@ -1,4 +1,4 @@
-# Quasar App (move-app)
+# (move-app)
 
 A Quasar Project
 
@@ -11,7 +11,7 @@ npm install
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+quasar dev or npm run dev
 ```
 
 
