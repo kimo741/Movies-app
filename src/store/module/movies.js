@@ -40,10 +40,10 @@ const actions = {
         commit("GET_MOVIES_LIST", data);
       })
       .catch((err) => {
-        if (err.response.data.message == "Unauthenticated.") {
-          Cookies.remove("token");
-          this.$router.push("/login");
-        }
+//         if (err.response.data.message == "Unauthenticated.") {
+//           Cookies.remove("token");
+//           this.$router.push("/login");
+//         }
       });
   },
   async addMovies({ commit }, payload) {
