@@ -33,9 +33,9 @@ const actions = {
         commit("GET_CATEGORY_LIST", data);
       })
       .catch((err) => {
-        if (err.response.data.message == "Unauthenticated.") {
-          Cookies.remove("token");
-        }
+//         if (err.response.data.message == "Unauthenticated.") {
+//           Cookies.remove("token");
+//         }
       });
   },
   async addCategory({ commit }, payload) {
